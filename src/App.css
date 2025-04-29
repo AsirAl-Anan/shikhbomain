@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white dark:bg-[#0d1117] text-gray-900 dark:text-white transition-colors duration-300;
+}
+
+/* Add a subtle glow effect to buttons */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+}
+
+/* Gradient animations */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-animate {
+  background-size: 200% 200%;
+  animation: gradient-shift 6s ease infinite;
+}
+
+/* Spotlight glow effect */
+@keyframes spotlight-pulse {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.spotlight-glow {
+  animation: spotlight-pulse 3s ease-in-out infinite;
+}
