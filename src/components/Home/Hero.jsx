@@ -75,7 +75,7 @@ const Hero = ({ scrollY = 0 }) => {
                   <div className="w-full h-1.5 md:h-2 bg-black rounded-t-xl"></div>
                   <div className="aspect-[3/4] overflow-hidden bg-gray-900">
                     <img 
-                      src="https://placehold.co/400x500" 
+                      src="https://i.imgur.com/HqkZxes.png" 
                       alt="Tablet App" 
                       className="w-full h-full object-cover"
                     />
