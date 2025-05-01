@@ -35,7 +35,7 @@ const About = () => {
     {
       id: 2,
       name: 'Tanzir Imam',
-      position: 'Cto and Co-Founder, BanglaLearn',
+      position: 'Cto and Co-Founder, Shikhbo',
       image: '/team-member-2.jpg',
     },
     {
@@ -47,13 +47,13 @@ const About = () => {
     {
       id: 4,
       name: 'Farhan Rahman',
-      position: 'Language Education Expert, BanglaLearn',
+      position: 'Language Education Expert, Shikhbo',
       image: '/team-member-1.jpg',
     },
     {
       id: 5,
       name: 'Tanisha Islam',
-      position: 'Technology Integration Specialist, BanglaLearn',
+      position: 'Technology Integration Specialist, Shikhbo',
       image: '/team-member-2.jpg',
     },
   ];
@@ -83,7 +83,7 @@ const About = () => {
                 id="hero-desc" 
                 className={`text-gray-300 text-lg mb-8 reveal-element transition-all duration-1000 delay-300 ${isVisible['hero-desc'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
               >
-                At BanglaLearn AI, we're revolutionizing education for students across Bangladesh with personalized AI tutoring that adapts to individual learning styles. Our platform bridges educational gaps by providing accessible, high-quality guidance in Bengali and English.
+                At Shikhbo AI, we're revolutionizing education for students across Bangladesh with personalized AI tutoring that adapts to individual learning styles. Our platform bridges educational gaps by providing accessible, high-quality guidance in Bengali and English.
               </p>
             </div>
             <div 
@@ -94,7 +94,7 @@ const About = () => {
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-2">
                     <div className="w-4 h-4 rounded-full bg-gray-600"></div>
-                    <h3 className="font-medium">BanglaLearn AI</h3>
+                    <h3 className="font-medium">Shikhbo AI</h3>
                   </div>
                   <div className="w-6 h-6 flex items-center justify-center rounded-full bg-gray-800">
                     <span className="text-gray-300">✓</span>
