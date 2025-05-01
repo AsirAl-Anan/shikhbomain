@@ -61,7 +61,7 @@ const Hero = ({ scrollY = 0 }) => {
                   </div>
                   <div className="aspect-[9/19] overflow-hidden bg-gray-900">
                     <img 
-                      src="https://imgur.com/a/HJkrhHb" 
+                      src="https://i.imgur.com/4KjO7Uy.jpeg" 
                       alt="Mobile App" 
                       className="w-full h-full object-cover"
                     />
