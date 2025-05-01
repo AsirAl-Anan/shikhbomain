@@ -45,7 +45,7 @@ const Hero = ({ scrollY = 0 }) => {
                   </div>
                   <div className="rounded bg-gray-900 aspect-video overflow-hidden">
                     <img 
-                      src="blob:https://imgur.com/d1e3a66d-e83a-4630-a06b-7803a41e53d9" 
+                      src="https://i.imgur.com/MQNStDo.png" 
                       alt="Desktop Dashboard" 
                       className="w-full h-full object-cover"
                     />
